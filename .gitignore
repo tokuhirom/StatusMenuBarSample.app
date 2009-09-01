@@ -1,0 +1,9 @@
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.pbxuser
+build
+.DS_Store
+.sconsign.dblite
+a.out
+*.o
+.tmp
+*.dmg
