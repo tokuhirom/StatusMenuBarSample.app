@@ -13,11 +13,11 @@
 @synthesize sbMenu;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	sbItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
+	sbItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[sbItem retain];
-	[sbItem setEnabled:YES];
 	[sbItem setTitle:@"StatusMenuTest"];
 	[sbItem setHighlightMode:YES];
+	[sbItem setEnabled:YES];
 	[sbItem setMenu:sbMenu];
 }
 
